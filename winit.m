@@ -40,6 +40,7 @@ case 'trapezwin'
 case 'sinewin'
     % For TDAC in MDCT
     w = sinewin(flen);
+    %w = sin(pi*[0:flen-1/flen]);
 case 'kbdwin'
     % For TDAC in MDCT
     % w = kbdwin(flen,6.5);
